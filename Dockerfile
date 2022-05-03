@@ -277,6 +277,3 @@ FROM bitnami/java:11.0.14-debian-10-r73
 
 # Tags: 17.0.2-debian-10-r69
 FROM bitnami/java:17.0.2-debian-10-r69
-
-# Tags: 1.8.322-debian-10-r70
-FROM bitnami/java:1.8.322-debian-10-r70
