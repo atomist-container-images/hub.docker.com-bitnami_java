@@ -1,12 +1,12 @@
-# Tags: latest, 17.0.3-debian-10-r3, 17.0.3, 17-debian-10, 17
+# Tags: latest, 17.0.3-debian-10-r13, 17.0.3, 17-debian-10, 17
 FROM bitnami/java:latest
-FROM bitnami/java:17.0.3-debian-10-r3
+FROM bitnami/java:17.0.3-debian-10-r13
 FROM bitnami/java:17.0.3
 FROM bitnami/java:17-debian-10
 FROM bitnami/java:17
 
-# Tags: 11.0.15-debian-10-r3, 11.0.15, 11-debian-10, 11
-FROM bitnami/java:11.0.15-debian-10-r3
+# Tags: 11.0.15-debian-10-r13, 11.0.15, 11-debian-10, 11
+FROM bitnami/java:11.0.15-debian-10-r13
 FROM bitnami/java:11.0.15
 FROM bitnami/java:11-debian-10
 FROM bitnami/java:11
@@ -14,11 +14,101 @@ FROM bitnami/java:11
 # Tags: _
 FROM bitnami/java:_
 
-# Tags: 1.8.332-debian-10-r3, 1.8.332, 1.8-debian-10, 1.8
-FROM bitnami/java:1.8.332-debian-10-r3
+# Tags: 1.8.332-debian-10-r13, 1.8.332, 1.8-debian-10, 1.8
+FROM bitnami/java:1.8.332-debian-10-r13
 FROM bitnami/java:1.8.332
 FROM bitnami/java:1.8-debian-10
 FROM bitnami/java:1.8
+
+# Tags: 17.0.3-debian-10-r12
+FROM bitnami/java:17.0.3-debian-10-r12
+
+# Tags: 11.0.15-debian-10-r12
+FROM bitnami/java:11.0.15-debian-10-r12
+
+# Tags: 1.8.332-debian-10-r12
+FROM bitnami/java:1.8.332-debian-10-r12
+
+# Tags: 17.0.3-debian-10-r11
+FROM bitnami/java:17.0.3-debian-10-r11
+
+# Tags: 11.0.15-debian-10-r11
+FROM bitnami/java:11.0.15-debian-10-r11
+
+# Tags: 1.8.332-debian-10-r11
+FROM bitnami/java:1.8.332-debian-10-r11
+
+# Tags: 17.0.3-debian-10-r10
+FROM bitnami/java:17.0.3-debian-10-r10
+
+# Tags: 11.0.15-debian-10-r10
+FROM bitnami/java:11.0.15-debian-10-r10
+
+# Tags: 1.8.332-debian-10-r10
+FROM bitnami/java:1.8.332-debian-10-r10
+
+# Tags: 17.0.3-debian-10-r9
+FROM bitnami/java:17.0.3-debian-10-r9
+
+# Tags: 11.0.15-debian-10-r9
+FROM bitnami/java:11.0.15-debian-10-r9
+
+# Tags: 1.8.332-debian-10-r9
+FROM bitnami/java:1.8.332-debian-10-r9
+
+# Tags: 17.0.3-debian-10-r8
+FROM bitnami/java:17.0.3-debian-10-r8
+
+# Tags: 11.0.15-debian-10-r8
+FROM bitnami/java:11.0.15-debian-10-r8
+
+# Tags: 1.8.332-debian-10-r8
+FROM bitnami/java:1.8.332-debian-10-r8
+
+# Tags: 17.0.3-debian-10-r7
+FROM bitnami/java:17.0.3-debian-10-r7
+
+# Tags: 11.0.15-debian-10-r7
+FROM bitnami/java:11.0.15-debian-10-r7
+
+# Tags: 1.8.332-debian-10-r7
+FROM bitnami/java:1.8.332-debian-10-r7
+
+# Tags: 17.0.3-debian-10-r6
+FROM bitnami/java:17.0.3-debian-10-r6
+
+# Tags: 11.0.15-debian-10-r6
+FROM bitnami/java:11.0.15-debian-10-r6
+
+# Tags: 1.8.332-debian-10-r6
+FROM bitnami/java:1.8.332-debian-10-r6
+
+# Tags: 11.0.15-debian-10-r5
+FROM bitnami/java:11.0.15-debian-10-r5
+
+# Tags: 17.0.3-debian-10-r5
+FROM bitnami/java:17.0.3-debian-10-r5
+
+# Tags: 1.8.332-debian-10-r5
+FROM bitnami/java:1.8.332-debian-10-r5
+
+# Tags: 11.0.15-debian-10-r4
+FROM bitnami/java:11.0.15-debian-10-r4
+
+# Tags: 17.0.3-debian-10-r4
+FROM bitnami/java:17.0.3-debian-10-r4
+
+# Tags: 1.8.332-debian-10-r4
+FROM bitnami/java:1.8.332-debian-10-r4
+
+# Tags: 17.0.3-debian-10-r3
+FROM bitnami/java:17.0.3-debian-10-r3
+
+# Tags: 11.0.15-debian-10-r3
+FROM bitnami/java:11.0.15-debian-10-r3
+
+# Tags: 1.8.332-debian-10-r3
+FROM bitnami/java:1.8.332-debian-10-r3
 
 # Tags: 17.0.3-debian-10-r2
 FROM bitnami/java:17.0.3-debian-10-r2
@@ -190,90 +280,3 @@ FROM bitnami/java:17.0.2-debian-10-r79
 
 # Tags: 1.8.322-debian-10-r80
 FROM bitnami/java:1.8.322-debian-10-r80
-
-# Tags: 11.0.14-debian-10-r82
-FROM bitnami/java:11.0.14-debian-10-r82
-
-# Tags: 17.0.2-debian-10-r78
-FROM bitnami/java:17.0.2-debian-10-r78
-
-# Tags: 1.8.322-debian-10-r79
-FROM bitnami/java:1.8.322-debian-10-r79
-
-# Tags: 11.0.14-debian-10-r81
-FROM bitnami/java:11.0.14-debian-10-r81
-
-# Tags: 17.0.2-debian-10-r77
-FROM bitnami/java:17.0.2-debian-10-r77
-
-# Tags: 1.8.322-debian-10-r78
-FROM bitnami/java:1.8.322-debian-10-r78
-
-# Tags: 11.0.14-debian-10-r80
-FROM bitnami/java:11.0.14-debian-10-r80
-
-# Tags: 17.0.2-debian-10-r76
-FROM bitnami/java:17.0.2-debian-10-r76
-
-# Tags: 1.8.322-debian-10-r77
-FROM bitnami/java:1.8.322-debian-10-r77
-
-# Tags: 11.0.14-debian-10-r79
-FROM bitnami/java:11.0.14-debian-10-r79
-
-# Tags: 17.0.2-debian-10-r75
-FROM bitnami/java:17.0.2-debian-10-r75
-
-# Tags: 1.8.322-debian-10-r76
-FROM bitnami/java:1.8.322-debian-10-r76
-
-# Tags: 11.0.14-debian-10-r78
-FROM bitnami/java:11.0.14-debian-10-r78
-
-# Tags: 17.0.2-debian-10-r74
-FROM bitnami/java:17.0.2-debian-10-r74
-
-# Tags: 1.8.322-debian-10-r75
-FROM bitnami/java:1.8.322-debian-10-r75
-
-# Tags: 11.0.14-debian-10-r77
-FROM bitnami/java:11.0.14-debian-10-r77
-
-# Tags: 17.0.2-debian-10-r73
-FROM bitnami/java:17.0.2-debian-10-r73
-
-# Tags: 1.8.322-debian-10-r74
-FROM bitnami/java:1.8.322-debian-10-r74
-
-# Tags: 11.0.14-debian-10-r76
-FROM bitnami/java:11.0.14-debian-10-r76
-
-# Tags: 17.0.2-debian-10-r72
-FROM bitnami/java:17.0.2-debian-10-r72
-
-# Tags: 1.8.322-debian-10-r73
-FROM bitnami/java:1.8.322-debian-10-r73
-
-# Tags: 11.0.14-debian-10-r75
-FROM bitnami/java:11.0.14-debian-10-r75
-
-# Tags: 17.0.2-debian-10-r71
-FROM bitnami/java:17.0.2-debian-10-r71
-
-# Tags: 1.8.322-debian-10-r72
-FROM bitnami/java:1.8.322-debian-10-r72
-
-# Tags: 11.0.14-debian-10-r74
-FROM bitnami/java:11.0.14-debian-10-r74
-
-# Tags: 17.0.2-debian-10-r70
-FROM bitnami/java:17.0.2-debian-10-r70
-
-# Tags: 1.8.322-debian-10-r71
-FROM bitnami/java:1.8.322-debian-10-r71
-
-# Tags: 11.0.14-debian-10-r73
-FROM bitnami/java:11.0.14-debian-10-r73
-
-# Tags: 17.0.2-debian-10-r69
-FROM bitnami/java:17.0.2-debian-10-r69
